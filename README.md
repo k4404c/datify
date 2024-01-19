@@ -31,4 +31,6 @@ python app.py
 
 6. Explore your top tracks, cluster analysis, and receive personalized music recommendations!
 
+![image](https://github.com/k4404c/datify/assets/91146340/8656b111-d67b-4608-8639-0e506e53a947)
+
 Feel free to customize and enhance the application based on your preferences and requirements.
