@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <!-- Include Plotly JavaScript -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <!-- Container for Plotly plot -->
+    <div id="plot-container"></div>
+
+    <!-- Container for Packed Circle chart -->
+    <div id="bar-chart-container"></div>
+
+    <!-- Display Top Recommendations -->
+    <h1>Top Recommendations</h1>
+    <ul>
+        {% for track in top_recommendations %}
+            <li><a href="{{ track.external_urls.spotify }}" target="_blank">{{ track.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <!-- Include your page-specific JavaScript -->
+    <script>
+        // Display Plotly plot
+        var plotHtml = {{ plot_html|safe }};
+        document.getElementById('plot-container').innerHTML = plotHtml;
+
+        // Display Packed Circle chart
+        var barChartPlotHtml = {{ plot_bar_chart_html|safe }};
+        document.getElementById('bar-chart-container').innerHTML = barChartPlotHtml;
+    </script>
+</body>
+</html>
