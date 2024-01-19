@@ -30,7 +30,6 @@ python app.py
 5. Access the application at [http://localhost:5000](http://localhost:5000) and log in with your Spotify account.
 
 6. Explore your top tracks, cluster analysis, and receive personalized music recommendations!
-
-<img class="image-align-left" src="https://github.com/k4404c/datify/assets/91146340/8656b111-d67b-4608-8639-0e506e53a947"/><img class="https://github.com/k4404c/datify/assets/91146340/34665eac-e579-4614-93ce-9e95e522cdf4"/>
+<img class="image-align-left" src="https://github.com/k4404c/datify/assets/91146340/8656b111-d67b-4608-8639-0e506e53a947"/><img class="image-align-left" src="https://github.com/k4404c/datify/assets/91146340/34665eac-e579-4614-93ce-9e95e522cdf4"/>
 
 Feel free to customize and enhance the application based on your preferences and requirements.
