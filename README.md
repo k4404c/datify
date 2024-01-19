@@ -16,8 +16,8 @@ Datify is a web application built with Flask that leverages the Spotify API to a
 2. Set up a Spotify Developer account and obtain your `CLIENT_ID` and `CLIENT_SECRET`.
 3. Create a `.env` file with your Spotify credentials:
 
-'CLIENT_ID=your_client_id
-CLIENT_SECRET=your_client_secret'
+'CLIENT_ID=your_client_id'
+'CLIENT_SECRET=your_client_secret'
 
 4. Run the Flask application:
 
